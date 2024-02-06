@@ -18,7 +18,7 @@ function Button  ({ size, children,customStyle  }) {
 
   return (
     <button
-      className={`bg-lime-500 text-white rounded-md hover:bg-lime-600 focus:outline-none focus:ring focus:border-lime-700 ${sizeClasses} transition-all duration-300`}
+      className={`bg-[#004D2A] text-white rounded-md hover:bg-[#00D775] focus:outline-none focus:ring focus:border-[#5fc798] ${sizeClasses} transition-all duration-300`}
       style={customStyle}
     >
       {children}

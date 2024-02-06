@@ -5,14 +5,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
      fontFamily: {
-      sans: 'Roboto Mono,monospace',
+      // sans: 'Roboto , sans-serif'
     },
     
    screens: {
       'sm': '600px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      'md': '750px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
@@ -29,9 +29,7 @@ export default {
       backgroundImage: {
       'gradient-image': 'linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.6)), url("assets/vidar-nordli-mathisen-loTTPqOed7c-unsplash.jpg")',
       },
-     fontFamily: {
-        protest: ['Protest Riot', 'sans-serif'],
-      },  
+     
     },
 
     height: {
