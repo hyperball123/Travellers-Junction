@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import Button from "./Button"
 
 function Slogan() {
@@ -6,8 +7,9 @@ function Slogan() {
         <p className="-mb-4">Connect</p>
   <p className="-mb-4">Share</p>
   <p className="mb-2">Explore</p>
-        <Button size='medium' customStyle={{ fontSize: "1.4rem"}}>Connect</Button>
-    </div>
+       {/* <NavLink to='/register' className='p-0 -m-0 inline'> <Button size='medium' customStyle={{ fontSize: "1.4rem" , width: "100%" , }}>Connect</Button></NavLink> */}
+       <Button size='medium' customStyle={{ fontSize: "1.4rem"}}><NavLink to='/register' className='w-full'>Connect</NavLink> </Button>
+    </div>  
   )
 }
 

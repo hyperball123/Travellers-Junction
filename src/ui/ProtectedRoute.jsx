@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
 
 
-function ProtectedRoute() {
+function ProtectedRoute({children}) {
   return (
-    <div>
-      <Outlet/>
-    </div>
+    <>
+      {children}
+    </>
   )
 }
 

@@ -27,7 +27,8 @@ export default {
 
     extend: {
       backgroundImage: {
-      'gradient-image': 'linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.6)), url("assets/vidar-nordli-mathisen-loTTPqOed7c-unsplash.jpg")',
+        'gradient-image': 'linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.6)), url("assets/vidar-nordli-mathisen-loTTPqOed7c-unsplash.jpg")',
+        'auth-image': 'linear-gradient(rgba(30, 30, 34, 0.3), rgba(34, 34, 34, 0.5)),url("assets/auth.jpg")',
       },
      
     },

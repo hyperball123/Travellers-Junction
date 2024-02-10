@@ -1,5 +1,5 @@
 
-function Button  ({ size, children,customStyle  }) {
+function Button  ({ size, children, customStyle  }) {
   // Define Tailwind CSS classes based on the size
   let sizeClasses = '';
   switch (size) {

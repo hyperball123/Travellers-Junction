@@ -1,9 +1,10 @@
-import Home from "../pages/Home"
+
+import { Outlet } from 'react-router-dom';
 
 function AppLayout() {
   return (
     <>
-      <Home/>
+      <Outlet/>
     </>
   )
 }
