@@ -1,4 +1,7 @@
+import { useMutation } from "@tanstack/react-query";
 
-function useRegister() {
-  const query
+export function useSignUp() {
+  const { mutate: signUp, isLoading } = useMutation({
+    
+  })
 }
